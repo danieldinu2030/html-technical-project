@@ -1,0 +1,121 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+a:link{
+    color: chocolate;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: crimson;
+}
+.appstyles {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 100px auto;
+    background-color: lightgoldenrodyellow;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.title{
+    text-align: center;
+}
+.intro-title{
+    padding-left: 200px;
+}
+.subtitle{
+    text-align: center;
+    text-decoration: underline;
+}
+.paragraph{
+    text-align: justify;
+    font-weight: 450;
+    background-color: lightgoldenrodyellow;
+    color: navy;
+    border: 1px solid black;
+    text-indent: 50px;
+    line-height: 135%;
+    padding: 10px;
+}
+.intro-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6FA;
+}
+.image-row{
+    display: flex;
+    justify-content: space-between;
+}
+.champions-image{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-image{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    padding: 10px 10px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: rgb(181, 220, 244) ;
+    font-weight: 450;
+    justify-content: center;
+}
+.homebutton{
+    width: 155px;
+    padding: 10px 10px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: rgb(181, 220, 244) ;
+    font-weight: 450;
+    justify-content: center;
+}
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.gcaption{
+    text-align: center;
+    font-weight: 700;
+}.scaption{
+    text-align: center;
+    font-weight: 700;
+}
+.bcaption{
+    text-align: center;
+    font-weight: 700;
+}
+.caption-image{
+    height: 350px;
+    width: 350px;
+}
+.team{
+    font-weight: 700;
+    color: navy;
+}
+.table{
+    border: 3px solid black;
+    text-align: center;
+    background-color: antiquewhite;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-weight: 450;
+}
+.intro{
+    display: inline-block;
+}
